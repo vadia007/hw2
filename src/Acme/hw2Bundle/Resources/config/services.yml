@@ -1,0 +1,4 @@
+services:
+#    acmehw2.example:
+#        class: Acme\hw2Bundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

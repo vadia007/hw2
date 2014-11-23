@@ -1,0 +1,4 @@
+acmehw2:
+    resource: "@Acmehw2Bundle/Resources/config/routing.yml"
+    prefix:   /
+
