@@ -1,1 +1,5 @@
-Hello {{ name }}!
+{% if car %}
+    {{ 'the'|capitalize }} {{ car.getName }} can go up to {{ car.getSpeed }} kilometers!
+{% endif %}
+
+
