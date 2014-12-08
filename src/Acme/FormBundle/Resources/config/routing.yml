@@ -1,0 +1,3 @@
+acme_form_homepage:
+    path:     /form
+    defaults: { _controller: AcmeFormBundle:Default:index }

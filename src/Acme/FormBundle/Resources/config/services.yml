@@ -1,4 +1,4 @@
 services:
-#    acmehw2.example:
-#        class: Acme\hw2Bundle\Example
+#    acme_form.example:
+#        class: Acme\FormBundle\Example
 #        arguments: [@service_id, "plain_value", %parameter%]

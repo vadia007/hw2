@@ -1,3 +1,7 @@
+acme_form:
+    resource: "@AcmeFormBundle/Resources/config/routing.yml"
+    prefix:   /
+
 acmehw2:
     resource: "@Acmehw2Bundle/Resources/config/routing.yml"
     prefix:   /
