@@ -25,7 +25,7 @@ class DefaultController extends Controller
     {
         $car = $this->getDoctrine()
             ->getRepository('Acmehw2Bundle:Car')
-            ->find($id);
+            ->findOneById($id);
 
         if (!$car) {
             throw $this->createNotFoundException(
@@ -40,6 +40,6 @@ class DefaultController extends Controller
     {
         $this->createAction();
         $car = $this->showAction($id);
-        return $this->render('Acmehw2Bundle:Default:index.html.twig', array('car' => $car));
+        return $this->render('Acmehw2Bundle:Default:index.html.twig', ['car' => $car]);
     }
 }

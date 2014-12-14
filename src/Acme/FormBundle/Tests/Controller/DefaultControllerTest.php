@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\hw2Bundle\Tests\Controller;
+namespace Acme\FormBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
